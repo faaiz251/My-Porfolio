@@ -2,7 +2,12 @@
 
 import { motion } from "framer-motion"
 
-const skills = ["Skill 1", "Skill 2", "Skill 3", "Skill 4", "Skill 5", "Skill 6"]
+const skills = ["React.js",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "JavaScript"]
 
 export default function About() {
   return (
@@ -24,8 +29,7 @@ export default function About() {
         <motion.div initial={{ x: -50 }} animate={{ x: 0 }} transition={{ duration: 0.5 }}>
           <h2 className="text-2xl font-bold mb-4 text-pink-300">My Journey</h2>
           <p className="mb-4 text-lg">
-            I'm a passionate [Your Profession] with [X] years of experience in [Your Field]. I specialize in [Your
-            Specialties] and have a strong background in [Your Background].
+          I'm a passionate full-stack web developer with experience in building dynamic and scalable web applications. I specialize in React.js, Next.js, Node.js, and MongoDB, with a strong background in JavaScript, TypeScript, and backend development.
           </p>
           <p className="mb-4 text-lg">
             My journey in this field has been exciting and full of learning. I've had the opportunity to work on diverse
@@ -56,7 +60,7 @@ export default function About() {
         transition={{ delay: 0.5, duration: 0.5 }}
       >
         <h2 className="text-2xl font-bold mb-4 text-pink-300">Education</h2>
-        <p className="text-lg">[Your Degree] in [Your Field] - [Your University] ([Graduation Year])</p>
+        <p className="text-lg">Diploma in Computer Engineering - Jamia Millia Islamia (Ongoing)</p>
       </motion.div>
     </motion.div>
   )

@@ -34,7 +34,7 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.8 }}
       >
-        Hi, I'm [Your Name]. I'm a [Your Profession] specializing in [Your Skills]. Welcome to my portfolio where you
+       I'm Mohd Faaiz Azeem, a full-stack web developer skilled in React.js, Next.js, Node.js, and MongoDB. I build efficient and user-friendly web applications. Welcome to my portfolio where you
         can explore my creative journey and professional accomplishments.
       </motion.p>
     </motion.div>
